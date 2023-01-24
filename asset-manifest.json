@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c99192fd.css",
-    "main.js": "/portfolio/static/js/main.41a1f99f.js",
+    "main.css": "/portfolio/static/css/main.d863d9c2.css",
+    "main.js": "/portfolio/static/js/main.7a091f63.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/RTIMXAPP.gif": "/portfolio/static/media/RTIMXAPP.82d4898092322011fbda.gif",
     "static/media/background.gif": "/portfolio/static/media/background.fa83757e2d6da73c5a8d.gif",
@@ -10,12 +10,12 @@
     "static/media/background.png": "/portfolio/static/media/background.11d0fd9a3e5a2e90e7aa.png",
     "static/media/RTIMXAPP_main.jpg": "/portfolio/static/media/RTIMXAPP_main.e64755d26bcabd68fdf8.jpg",
     "index.html": "/portfolio/index.html",
-    "main.c99192fd.css.map": "/portfolio/static/css/main.c99192fd.css.map",
-    "main.41a1f99f.js.map": "/portfolio/static/js/main.41a1f99f.js.map",
+    "main.d863d9c2.css.map": "/portfolio/static/css/main.d863d9c2.css.map",
+    "main.7a091f63.js.map": "/portfolio/static/js/main.7a091f63.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c99192fd.css",
-    "static/js/main.41a1f99f.js"
+    "static/css/main.d863d9c2.css",
+    "static/js/main.7a091f63.js"
   ]
 }
