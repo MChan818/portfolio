@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutMe = () => {
 	return (
 		<section id="aboutMe" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
@@ -8,8 +6,27 @@ const AboutMe = () => {
 			</div>
 			<div>
 				<p className="mb-4">
-					Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and
-					web development. Fast-forward to today, and I’ve had the privilege of building software for an
+					I've always been a tech kid, so I've grown surrounded by computers, gaming consoles, electronics, etc. That's why I always assumed
+					my dream carreer was Electronic Engineering. It wasn't until de Covid-19 pandemic, after spending hours on the computer browsing
+					the internet, that I realised my passion lied in programming and changed carreer to Software Engineering. Fast-foward to today,
+					I've worked for 2 start-up companies, created 2 different products from scratch, and never stopped learning about the world of web
+					development.
+				</p>
+				<p className="mb-4">
+					{"My main focus these days lies in building new products and refactoring old projects at "}
+					<a
+						className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+						href="https://docturno.com/"
+						target="_blank"
+						rel="noreferrer noopener"
+						aria-label="advertising agency (opens in a new tab)"
+					>
+						Docturno
+					</a>
+					{" . "} When I'm not coding, I'm studying to get my Engineering degree at Universidad de Buenos Aires.
+				</p>
+				<p className="mb-4">
+					In my free time, I like to play football tournaments, play the guitar and grind in League of Legends and CS:GO.
 				</p>
 			</div>
 		</section>
