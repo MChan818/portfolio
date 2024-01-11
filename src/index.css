@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Inter';
-    src: url('./assets/Inter.ttc');
+	font-family: "Inter";
+	src: url("./assets/Inter.ttc");
 }
 
 * {
-    font-family: 'Inter';
-    
+	font-family: "Inter";
+}
+html {
+	scroll-behavior: smooth;
 }

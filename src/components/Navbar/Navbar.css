@@ -1,11 +1,16 @@
 .active .nav-indicator {
     width: 4rem;
     --tw-bg-opacity: 1;
-    background-color: rgb(226 232 240/var(--tw-bg-opacity));
+    background-color: rgb(226 232 240/var(--tw-bg-opacity))
+}
+
+.active .nav-text {
+    --tw-text-opacity: 1;
+    color: rgb(226 232 240/var(--tw-text-opacity))
 }
 
 .transition-all {
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transition-duration: .15s;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 0.15s;
 }
