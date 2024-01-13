@@ -1,8 +1,10 @@
-import React, { useContext, useEffect, useRef } from "react";
+import { useContext, useEffect, useRef } from "react";
 import useOnScreen from "../../hooks/IntersectionObserver";
 import { AppContext } from "../Context/AppContext";
 import FocusedList from "../FocusedList/FocusedList";
-import FocusedListItem from "../FocusedList/FocusedListItem";
+import Project from "../Project/Project";
+
+import { ProjectList, ProjectListType } from "../Project/ProjectList";
 
 const Projects = () => {
 	const { handleActive } = useContext(AppContext);
@@ -21,12 +23,16 @@ const Projects = () => {
 	return (
 		<section id="projects" ref={ref}>
 			<FocusedList>
-				<FocusedListItem className="w-full flex p-4 mt-2 hover: transition-all rounded-md lg:group-hover:bg-[#222]/50">
-					<div>aloha</div>
-				</FocusedListItem>
-				<FocusedListItem className="w-full flex p-4 mt-2 hover: transition-all rounded-md lg:group-hover:bg-[#222]/50">
-					<div>hola</div>
-				</FocusedListItem>
+				{ProjectList.map((project: ProjectListType, index: number) => (
+					<Project
+						title={project.title}
+						thumbnail={project?.thumbnail}
+						description={project.description}
+						description2={project?.description2}
+						tags={project?.tags}
+						key={index}
+					/>
+				))}
 			</FocusedList>
 		</section>
 	);
