@@ -1,18 +1,14 @@
-import { useState } from "react";
+import { useContext } from "react";
 import { NavigationType } from "./Navbar";
 import NavListItem from "./NavListItem";
+import { AppContext } from "../Context/AppContext";
 
 interface PropType {
 	array: NavigationType[];
 }
 
 const NavList = ({ array }: PropType) => {
-	const [isActive, setIsActive] = useState<number>(0);
-
-	const handleActive = (index: number) => {
-		if (typeof index !== "number") return;
-		setIsActive(index);
-	};
+	const { isActive, handleActive } = useContext(AppContext);
 
 	return array.map((list: NavigationType, index) => {
 		const active: boolean = index === isActive ? true : false;
