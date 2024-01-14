@@ -28,6 +28,8 @@ export const JobList: JobListType[] = [
 			"AWS",
 			"NodeJS",
 			"ExpressJS",
+			"Tailwind",
+			"MUI",
 		],
 	},
 	{

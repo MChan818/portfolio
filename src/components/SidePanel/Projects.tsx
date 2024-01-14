@@ -26,10 +26,12 @@ const Projects = () => {
 				{ProjectList.map((project: ProjectListType, index: number) => (
 					<Project
 						title={project.title}
+						subtitle={project?.subtitle}
 						thumbnail={project?.thumbnail}
 						description={project.description}
 						description2={project?.description2}
 						tags={project?.tags}
+						href={project?.href}
 						key={index}
 					/>
 				))}
