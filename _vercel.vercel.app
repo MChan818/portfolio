@@ -1,1 +1,0 @@
-vc-domain-verify=maxichan.vecel.app,6d2fcd09f8d0c8adb06d
