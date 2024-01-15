@@ -14,7 +14,7 @@ export const JobList: JobListType[] = [
 		title: "Frontend Developer | Docturno",
 		seniority: "SSR",
 		description:
-			"Create high-quality, robust, scalable code for the main product. Maintain and refactor the old projects into a new, modern andmore appealing product. Bring new ideas and implementing them, while helping others in their tasks.",
+			"Create high-quality, robust, scalable code for the main product. Maintain and refactor old projects into new, modern and more appealing products. Bring new ideas and implementing them, while helping others on their tasks.",
 		website: "https://www.docturno.com",
 		start: "Feb 2023",
 		end: "Present",
@@ -36,7 +36,7 @@ export const JobList: JobListType[] = [
 		title: "Frontend Developer | RTI Latina SRL",
 		seniority: "JR",
 		description:
-			"Create a hybrid app for product prices and stock management that works on both Android and web with only 1 code base. Getting feedback from customers and the custumer support team, to further develop the app.",
+			"Create hybrid apps for product prices and stock management that works on both Android and web with only 1 code base. Getting feedback from customers and the customer support team, to further develop the app.",
 		website: "https://rtitec.com.ar/",
 		start: "Apr 2021",
 		end: "Sep 2023",
