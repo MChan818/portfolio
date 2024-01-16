@@ -27,8 +27,8 @@ export const ProjectList: ProjectListType[] = [
 		thumbnail: RTI,
 		description:
 			"Hybrid ionic app that lets you do everything a data collector does, and more. Manage prices, print labels, scan barcodes, etc.",
-		description2:
-			"Privacy Agreement. If you want to know more about this app, feel free to contact me.",
+		// description2:
+		// 	"Privacy Agreement. If you want to know more about this app, feel free to contact me.",
 		tags: ["ReactJS", "Ionic", "Android", "Java"],
 	},
 	{
@@ -37,8 +37,8 @@ export const ProjectList: ProjectListType[] = [
 		thumbnail: RTI,
 		description:
 			"Hybrid ionic app that lets you check the product's information, by scanning its barcode.",
-		description2:
-			"Privacy Agreement. If you want to know more about this app, feel free to contact me.",
+		// description2:
+		// 	"Privacy Agreement. If you want to know more about this app, feel free to contact me.",
 		tags: ["ReactJS", "Ionic", "Android", "Java"],
 	},
 ];

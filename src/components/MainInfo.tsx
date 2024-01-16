@@ -6,11 +6,11 @@ const MainInfo = () => {
 	return (
 		<header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
 			<div>
-				<h1 className="text-4xl tracking-tight text-slate-200 sm:text-6xl">
+				<h1 className="text-4xl text-slate-200 sm:text-7xl">
 					Hey! I'm <b>Maxi</b>
 				</h1>
-				<h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-2xl">
-					<b className="text-orange-500">Frontend Dev</b> at Docturno
+				<h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-3xl">
+					<b className="text-orange-500 ">Frontend Dev</b> at Docturno
 				</h2>
 				<p className="mt-4 max-w-xs leading-normal">
 					I build modern, excellent products for web and mobile.
