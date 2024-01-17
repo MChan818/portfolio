@@ -38,6 +38,7 @@ const Projects = () => {
 						tags={project?.tags}
 						href={project?.href}
 						key={index}
+						img={project?.img}
 					/>
 				))}
 			</FocusedList>
