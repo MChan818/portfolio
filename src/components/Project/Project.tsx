@@ -10,7 +10,7 @@ const Project = (data: ProjectListType) => {
 	const [open, setOpen] = useState<boolean>(false);
 
 	const handleOpenModal = () => {
-		if(!data.img) return;
+		if (!data.img) return;
 		if (open === false) {
 			document.body.style.overflow = "hidden";
 		} else {
