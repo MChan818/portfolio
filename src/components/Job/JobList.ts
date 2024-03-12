@@ -11,13 +11,22 @@ export interface JobListType {
 
 export const JobList: JobListType[] = [
 	{
+		title: "Frontend Developer | Max Capital",
+		seniority: "SSR",
+		description: "Maintaining high-quality, robust and scalable code while participating in the creating of new projects. Bring new and creative ideas to the company. ",
+		website: "https://www.max.capital/",
+		start: "Mar 2024",
+		end: "Present",
+		tags: ["ReactJS", "React Native", "TypeScript", "JavaScript", "Tailwind", "NextUI"],
+	},
+	{
 		title: "Frontend Developer | Docturno",
 		seniority: "SSR",
 		description:
 			"Create high-quality, robust, scalable code for the main product. Maintain and refactor old projects into new, modern and more appealing products. Bring new ideas and implementing them, while helping others on their tasks.",
 		website: "https://www.docturno.com",
 		start: "Feb 2023",
-		end: "Present",
+		end: "Mar 2024",
 		tags: [
 			"ReactJS",
 			"React Native",

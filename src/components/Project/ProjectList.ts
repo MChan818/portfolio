@@ -32,7 +32,7 @@ export type ProjectListType = {
 
 export const ProjectList: ProjectListType[] = [
 	{
-		title: "Docturno's Patient's dashboard",
+		title: "Patient dashboard",
 		subtitle: "Docturno",
 		thumbnail: Docturno,
 		description:
@@ -42,7 +42,7 @@ export const ProjectList: ProjectListType[] = [
 	},
 	{
 		title: "Data Collector App",
-		subtitle: "RTI LATINA SRL",
+		subtitle: "Rti Latina SRL",
 		thumbnail: RTI,
 		description:
 			"Hybrid ionic app that lets you do everything a data collector does, and more. Manage prices, print labels, scan barcodes, etc.",
@@ -63,7 +63,7 @@ export const ProjectList: ProjectListType[] = [
 	},
 	{
 		title: "Price Checker App",
-		subtitle: "RTI LATINA SRL",
+		subtitle: "Rti Latina SRL",
 		thumbnail: RTI,
 		description:
 			"Hybrid ionic app that lets you check the product's information, by scanning its barcode.",
