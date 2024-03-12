@@ -41,12 +41,12 @@ const AboutMe = () => {
 					{"My main focus these days lies in building new products at "}
 					<a
 						className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-						href="https://docturno.com/"
+						href="https://www.max.capital/"
 						target="_blank"
 						rel="noreferrer noopener"
 						aria-label="advertising agency (opens in a new tab)"
 					>
-						Docturno
+						Max Capital
 					</a>
 					{". "} When I'm not coding, I'm studying to get my Engineering degree at
 					Universidad de Buenos Aires.
