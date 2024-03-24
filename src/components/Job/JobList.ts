@@ -13,7 +13,7 @@ export const JobList: JobListType[] = [
 	{
 		title: "Frontend Developer | Max Capital",
 		seniority: "SSR",
-		description: "Maintaining high-quality, robust and scalable code while participating in the creating of new projects. Bring new and creative ideas to the company. ",
+		description: "Maintaining high-quality, robust and scalable code while participating in the creating of new projects. Bring new and creative ideas to the company.",
 		website: "https://www.max.capital/",
 		start: "Mar 2024",
 		end: "Present",

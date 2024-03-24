@@ -1,6 +1,6 @@
 import RTI from "../../assets/rti.png";
 import Docturno from "../../assets/docturno_dashboard2.png";
-import SpeedType from "../../assets/speedtype.jpg";
+import MaxCapital from "../../assets/maxcapital.png";
 
 import config from "../../assets/priceChecker/config.png";
 import home from "../../assets/priceChecker/home.png";
@@ -32,12 +32,21 @@ export type ProjectListType = {
 
 export const ProjectList: ProjectListType[] = [
 	{
-		title: "Patient dashboard",
+		title: "Max Capital",
+		subtitle: "Max Capital",
+		thumbnail: MaxCapital,
+		description:
+			"Max Capital offers services in the areas of Sales & Trading, Capital Markets and Wealth Management, for institutional, corporate, and retail clients, based on a core principle: putting our client's interests first.",
+		tags: ["ReactJS", "NextJS", "NextUI", "Tailwind", "GitLab"],
+		href: "https://www.max.capital/",
+	},
+	{
+		title: "Docturno's Marketplace",
 		subtitle: "Docturno",
 		thumbnail: Docturno,
 		description:
 			"Docturno is a website, where you can find health professionals and schedule appointments instantly in a fast and simple way.",
-		tags: ["ReactJS", "AWS", "NodeJS", "Tailwind"],
+		tags: ["ReactJS", "NodeJS", "Tailwind", "AWS"],
 		href: "https://www.docturno.com",
 	},
 	{
@@ -48,7 +57,7 @@ export const ProjectList: ProjectListType[] = [
 			"Hybrid ionic app that lets you do everything a data collector does, and more. Manage prices, print labels, scan barcodes, etc.",
 		description2:
 			"This app is mainly used on android devices. It's adapted so it can be used with phones and devices that specializes in this area (for example, an android device that has a built-in scanner, or printer. One of the main features, is the fact that it can print with ESCpos and ZPL/CPL, making it compatible with most thermal printers out there in the market. Another interesting features is the camera barcode scanner that scans EAN-13, CODE128, etc. It has it's own built-in store, so updates are very easy to install. But if I had to choose the most facinating hidden feature, is the fact that it uses UDP connections to connect to its local backend service. (It runs locally because the main product and database are PC local).",
-		tags: ["ReactJS", "Ionic", "Android", "Java"],
+		tags: ["ReactJS", "Ionic", "Android", "Java", "GitHub"],
 		img: [
 			DClogin,
 			DChome,
@@ -69,15 +78,7 @@ export const ProjectList: ProjectListType[] = [
 			"Hybrid ionic app that lets you check the product's information, by scanning its barcode.",
 		description2:
 			"This app is mainly used on low-end android devices with medium to big screens. It's main use is to show a product's information by scanning it. It has it's own build-in store, so everytime there's an update, the user is able to update it by pressing only one button. Ads are also part of this product. By setting a gif in the backend, its displayed on the app everytime it goes on standby (configurable in the app).",
-		tags: ["ReactJS", "Ionic", "Android", "Java"],
+		tags: ["ReactJS", "Ionic", "Android", "Java", "GitHub"],
 		img: [config, home, menu, product, updater, notFound],
-	},
-	{
-		title: "Typing Speed Test",
-		subtitle: "Personal Project",
-		thumbnail: SpeedType,
-		description: "React app for testing your typing speed",
-		tags: ["ReactJS", "TailwindCSS", "Vercel"],
-		href: "https://speedtype.vercel.app/",
 	},
 ];
