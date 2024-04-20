@@ -10,7 +10,7 @@ const MainInfo = () => {
 					Hey! I'm <b>Maxi</b>
 				</h1>
 				<h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-3xl">
-					<b className="text-orange-500 ">Frontend Dev</b> at Docturno
+					<b className="text-orange-500 ">Frontend Dev</b> at Max Capital
 				</h2>
 				<p className="mt-4 max-w-xs leading-normal">
 					I build modern, excellent products for web and mobile.

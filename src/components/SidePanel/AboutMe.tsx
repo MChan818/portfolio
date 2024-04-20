@@ -32,10 +32,10 @@ const AboutMe = () => {
 					Hi there! My name is Maximiliano Chan. I've always been a tech kid, surrounded
 					by computers, gaming consoles, electronics, etc. So growing up, it was always a
 					no-brainer to go for an Engineering carreer. At first, Electronics Engineering
-					was my go-to choice, but soon realised that it was a mistake. My true passion
+					was my go-to choice, but soon realised it was a mistake. My true passion
 					lied in software, where I can always discover new technologies to play with.
-					Fast-foward to today, I've worked for 2 start-up companies, having created 2 new
-					products from scratch, and always enjoyed the process of doing so.
+					Fast-foward to today, I've worked for 2 start-up companies, currently working at Max Capital,
+					having created and contributed in various projects, and always enjoyed the process of doing so.
 				</p>
 				<p className="mb-4">
 					{"My main focus these days lies in building new products at "}
