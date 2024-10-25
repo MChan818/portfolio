@@ -1,4 +1,4 @@
-export interface JobListType {
+export type JobListType = {
 	title: string;
 	seniority?: string;
 	position?: string;
@@ -11,13 +11,26 @@ export interface JobListType {
 
 export const JobList: JobListType[] = [
 	{
-		title: "Frontend Developer | Max Capital",
+		title: "Fullstack Developer | Max Capital",
 		seniority: "SSR",
-		description: "Maintaining high-quality, robust and scalable code while participating in the creating of new projects. Bring new and creative ideas to the company.",
+		description:
+			"Maintaining high-quality, robust and scalable code while participating in the creation of new projects. Bring new and creative ideas to the company.",
 		website: "https://www.max.capital/",
 		start: "Mar 2024",
 		end: "Present",
-		tags: ["ReactJS", "React Native", "TypeScript", "JavaScript", "Tailwind", "NextUI"],
+		tags: [
+			"NextJS",
+			"ReactJS",
+			"React Native",
+			"TypeScript",
+			"GraphQL",
+			"Tailwind",
+			"NextUI",
+			"Jest",
+			"Java",
+			"Springboot",
+			"SQL",
+		],
 	},
 	{
 		title: "Frontend Developer | Docturno",
@@ -32,13 +45,12 @@ export const JobList: JobListType[] = [
 			"React Native",
 			"CSS3",
 			"TypeScript",
-			"JavaScript",
 			"Java",
 			"AWS",
 			"NodeJS",
 			"ExpressJS",
 			"Tailwind",
-			"MUI",
+			"API"
 		],
 	},
 	{

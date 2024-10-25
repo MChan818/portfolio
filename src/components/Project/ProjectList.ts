@@ -37,11 +37,11 @@ export const ProjectList: ProjectListType[] = [
 		thumbnail: MaxCapital,
 		description:
 			"Max Capital offers services in the areas of Sales & Trading, Capital Markets and Wealth Management, for institutional, corporate, and retail clients, based on a core principle: putting our client's interests first.",
-		tags: ["ReactJS", "NextJS", "NextUI", "Tailwind", "GitLab"],
+		tags: ["ReactJS", "NextJS", "NextUI", "Tailwind", "Java", "Springboot", "GitLab"],
 		href: "https://www.max.capital/",
 	},
 	{
-		title: "Docturno's Marketplace",
+		title: "Docturno",
 		subtitle: "Docturno",
 		thumbnail: Docturno,
 		description:
@@ -51,7 +51,7 @@ export const ProjectList: ProjectListType[] = [
 	},
 	{
 		title: "Data Collector App",
-		subtitle: "Rti Latina SRL",
+		subtitle: "RTI Latina SRL",
 		thumbnail: RTI,
 		description:
 			"Hybrid ionic app that lets you do everything a data collector does, and more. Manage prices, print labels, scan barcodes, etc.",
@@ -72,7 +72,7 @@ export const ProjectList: ProjectListType[] = [
 	},
 	{
 		title: "Price Checker App",
-		subtitle: "Rti Latina SRL",
+		subtitle: "RTI Latina SRL",
 		thumbnail: RTI,
 		description:
 			"Hybrid ionic app that lets you check the product's information, by scanning its barcode.",
