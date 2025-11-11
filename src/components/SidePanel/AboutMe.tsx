@@ -46,7 +46,7 @@ const AboutMe = () => {
 						rel="noreferrer noopener"
 						aria-label="advertising agency (opens in a new tab)"
 					>
-						Max Capital
+						Blue Alba
 					</a>
 					{". "} When I'm not coding, I'm studying to get my Engineering degree at
 					Universidad de Buenos Aires.
