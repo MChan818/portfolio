@@ -1,11 +1,11 @@
-import { useContext, useEffect, useRef } from "react";
+import { RefObject, useContext, useEffect, useRef } from "react";
 import useOnScreen from "../../hooks/IntersectionObserver";
 import { AppContext } from "../Context/AppContext";
 
 const AboutMe = () => {
 	const { handleActive } = useContext(AppContext);
 	const ref = useRef<HTMLDivElement>(null);
-	const { isIntersecting, id } = useOnScreen(ref);
+	const { isIntersecting, id } = useOnScreen(ref as RefObject<HTMLDivElement>);
 
 	useEffect(() => {
 		const handleContextActive = () => {

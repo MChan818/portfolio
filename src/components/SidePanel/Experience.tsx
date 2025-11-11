@@ -1,4 +1,4 @@
-import { useContext, useEffect, useRef } from "react";
+import { RefObject, useContext, useEffect, useRef } from "react";
 import FocusedList from "../FocusedList/FocusedList";
 import Job from "../Job/Job";
 import { JobList, JobListType } from "../Job/JobList";
@@ -8,7 +8,7 @@ import useOnScreen from "../../hooks/IntersectionObserver";
 const Experience = () => {
 	const { handleActive } = useContext(AppContext);
 	const ref = useRef<HTMLDivElement>(null);
-	const { isIntersecting, id } = useOnScreen(ref);
+	const { isIntersecting, id } = useOnScreen(ref as RefObject<HTMLDivElement>);
 
 	useEffect(() => {
 		const handleContextActive = () => {

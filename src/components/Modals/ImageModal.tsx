@@ -21,7 +21,7 @@ const ImageModal = (data: PropType) => {
 			</div>
 			<div className="w-full h-full flex flex-col items-center overflow-auto lg:flex-row">
 				<div className="w-2/3 h-full flex justify-center items-center lg:w-1/2">
-					<Slideshow images={data.images} largeImage={data.title === "Data Collector App" ?? false}/>
+					<Slideshow images={data.images} largeImage={data.title === "Data Collector App" || false}/>
 				</div>
 				<div className="w-full h-full px-8 lg:py-36 lg:w-1/2">
 					<h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-3xl">

@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 interface PropType {
 	children: JSX.Element | JSX.Element[];
 }
