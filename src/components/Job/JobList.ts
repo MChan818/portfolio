@@ -7,26 +7,18 @@ export type JobListType = {
 	start: string;
 	end: string;
 	tags: string[];
-}
+};
 
 export const JobList: JobListType[] = [
-		{
+	{
 		title: "Fullstack Developer | Blue Alba",
-		seniority: "SSR",
+		seniority: "SR",
 		description:
 			"Develop new features by delivering high-quality code. Bring a new fresh perspective as an experienced developer.",
 		website: "https://www.bluealba.com/",
 		start: "Aug 2025",
 		end: "Present",
-		tags: [
-			"ReactJS",
-			"TypeScript",
-			"NestJS",
-			"Javascript",
-			"Jest",
-			"SQL",
-			"SASS"
-		],
+		tags: ["ReactJS", "TypeScript", "NestJS", "Javascript", "Jest", "SQL", "SASS"],
 	},
 	{
 		title: "Fullstack Developer | Max Capital",
@@ -68,7 +60,7 @@ export const JobList: JobListType[] = [
 			"NodeJS",
 			"ExpressJS",
 			"Tailwind",
-			"API"
+			"API",
 		],
 	},
 	{
